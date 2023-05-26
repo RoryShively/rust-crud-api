@@ -3,7 +3,7 @@
 testing: in 2 terminals enter these commands to watch code changes for client and server
 ```
 #Client
-cargo watch -q -c -w tests/ -x "test -q quick_dev -- --nocature"
+cargo watch -q -c -w tests/ -x "test -q quick_dev -- --nocapture"
 
 #Server
 cargo watch -q -c -w src/ -x run
