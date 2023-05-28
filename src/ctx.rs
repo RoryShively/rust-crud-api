@@ -9,3 +9,10 @@ impl Ctx {
         Self { user_id }
     }
 }
+
+// Property Accessors
+impl Ctx {
+    pub fn user_id(&self) -> u64 {
+        self.user_id
+    }
+}
